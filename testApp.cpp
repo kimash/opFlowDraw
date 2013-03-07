@@ -24,8 +24,8 @@ void testApp::draw(){
     
     ofPushStyle();
     for (int i=0; i<10; i++) {
-        ofSetColor(i*5, i*10, i*25, i*25);
-        curFlow->draw(10*i,0,640,480);
+        ofSetColor(120, 0, i*25, i*15);
+        curFlow->draw(10*i,10*i,640,480);
     }
     ofPopStyle();
 }
